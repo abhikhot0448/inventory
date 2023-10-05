@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  dhanmanpurchasedb:
+    image: postgres
+
+  dhanman.money.api:
+    image: dhanmanpurchaseapi
+    build:
+      context: .
+      dockerfile: src/dhanman.money.Api/Dockerfile
+  
+  pgadmin:
+    image: dpage/pgadmin4  
+
+
+
+volumes:
+  postgres_data:
+  pgadmin_data:  

@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dhanman.money.Api", "src\dhanman.money.Api\dhanman.money.Api.csproj", "{8C603C32-2DCF-4FC5-9029-3D6EC9D40728}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dhanman.money.Domain", "src\dhanman.money.Domain\dhanman.money.Domain.csproj", "{418164B3-8010-4EBC-8E42-269911B22100}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dhanman.money.Application", "src\dhanman.money.Application\dhanman.money.Application.csproj", "{CE7186EF-BCB6-4CC2-B695-E994134A7EB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dhanman.money.Persistence", "src\dhanman.money.Persistence\dhanman.money.Persistence.csproj", "{23C79BF7-F0E5-4315-956C-030FE8FF666D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{9A0FC447-9A35-437F-B828-7383D07F8950}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{81D61419-AD9D-40FC-88E6-6E72850A7070}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{226F0D48-CADE-4CEA-AC56-09FDCCC07569}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dhanman.money.Domain.UnitTests", "test\dhanman.money.Domain.UnitTests\dhanman.money.Domain.UnitTests.csproj", "{A94C366F-6A8E-4E7A-B691-6DCBAF1E0C35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0053773F-E683-42B5-931E-9D4A8D818DBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{49436706-872D-45C4-B8CA-4C352CCA31BC}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6BBAFFB5-CE64-4C56-8D7D-7173EDD23640}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dhanman.money.BDD", "test\dhanman.money.BDD\dhanman.money.BDD.csproj", "{5BC61C42-750C-4B0B-BF8B-16E8EBB4FC47}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dhanman.money.Application.Contracts", "src\dhanman.money.Application.Contracts\dhanman.money.Application.Contracts.csproj", "{8F040BCE-49B9-4B9B-9ED7-2D71572C4DAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "migrations", "migrations", "{639F3BA6-C105-4664-A780-D956F2218F45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C603C32-2DCF-4FC5-9029-3D6EC9D40728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C603C32-2DCF-4FC5-9029-3D6EC9D40728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C603C32-2DCF-4FC5-9029-3D6EC9D40728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C603C32-2DCF-4FC5-9029-3D6EC9D40728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{418164B3-8010-4EBC-8E42-269911B22100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{418164B3-8010-4EBC-8E42-269911B22100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{418164B3-8010-4EBC-8E42-269911B22100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{418164B3-8010-4EBC-8E42-269911B22100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE7186EF-BCB6-4CC2-B695-E994134A7EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7186EF-BCB6-4CC2-B695-E994134A7EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7186EF-BCB6-4CC2-B695-E994134A7EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7186EF-BCB6-4CC2-B695-E994134A7EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C79BF7-F0E5-4315-956C-030FE8FF666D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C79BF7-F0E5-4315-956C-030FE8FF666D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C79BF7-F0E5-4315-956C-030FE8FF666D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C79BF7-F0E5-4315-956C-030FE8FF666D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A94C366F-6A8E-4E7A-B691-6DCBAF1E0C35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A94C366F-6A8E-4E7A-B691-6DCBAF1E0C35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A94C366F-6A8E-4E7A-B691-6DCBAF1E0C35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A94C366F-6A8E-4E7A-B691-6DCBAF1E0C35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BBAFFB5-CE64-4C56-8D7D-7173EDD23640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BBAFFB5-CE64-4C56-8D7D-7173EDD23640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BBAFFB5-CE64-4C56-8D7D-7173EDD23640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BBAFFB5-CE64-4C56-8D7D-7173EDD23640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC61C42-750C-4B0B-BF8B-16E8EBB4FC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC61C42-750C-4B0B-BF8B-16E8EBB4FC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC61C42-750C-4B0B-BF8B-16E8EBB4FC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC61C42-750C-4B0B-BF8B-16E8EBB4FC47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F040BCE-49B9-4B9B-9ED7-2D71572C4DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F040BCE-49B9-4B9B-9ED7-2D71572C4DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F040BCE-49B9-4B9B-9ED7-2D71572C4DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F040BCE-49B9-4B9B-9ED7-2D71572C4DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C603C32-2DCF-4FC5-9029-3D6EC9D40728} = {226F0D48-CADE-4CEA-AC56-09FDCCC07569}
+		{418164B3-8010-4EBC-8E42-269911B22100} = {9A0FC447-9A35-437F-B828-7383D07F8950}
+		{CE7186EF-BCB6-4CC2-B695-E994134A7EB6} = {9A0FC447-9A35-437F-B828-7383D07F8950}
+		{23C79BF7-F0E5-4315-956C-030FE8FF666D} = {81D61419-AD9D-40FC-88E6-6E72850A7070}
+		{9A0FC447-9A35-437F-B828-7383D07F8950} = {0053773F-E683-42B5-931E-9D4A8D818DBA}
+		{81D61419-AD9D-40FC-88E6-6E72850A7070} = {0053773F-E683-42B5-931E-9D4A8D818DBA}
+		{226F0D48-CADE-4CEA-AC56-09FDCCC07569} = {0053773F-E683-42B5-931E-9D4A8D818DBA}
+		{A94C366F-6A8E-4E7A-B691-6DCBAF1E0C35} = {49436706-872D-45C4-B8CA-4C352CCA31BC}
+		{5BC61C42-750C-4B0B-BF8B-16E8EBB4FC47} = {49436706-872D-45C4-B8CA-4C352CCA31BC}
+		{8F040BCE-49B9-4B9B-9ED7-2D71572C4DAB} = {9A0FC447-9A35-437F-B828-7383D07F8950}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47059EDA-DBE2-45DF-890F-93CB97D17E16}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+version: '3.4'
+
+services:
+  dhanman.money.api:
+    container_name: dhanmanpurchaseapi
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "ConnectionStrings:PurchaseConnectionString=Server=db-dhanman-nonprod.postgres.database.azure.com;Port=5432;Database=dev-dhanman-purchase;User Id=devdhanman;Password=B@dhi$123;"
+    ports:
+      - "8000:80"
+
+  dhanmanpurchasedb:
+    container_name: dhanmanpurchasedb
+    environment:
+      - POSTGRES_USER=devdhanman
+      - POSTGRES_PASSWORD=B@dhi$123
+      - POSTGRES_DB=dev-dhanman-purchase
+    restart: always
+    ports:
+        - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+
+  pgadmin:
+    container_name: pgadmin
+    environment:
+        - PGADMIN_DEFAULT_EMAIL=admin@dhanman.com
+        - PGADMIN_DEFAULT_PASSWORD=admin1234
+    restart: always
+    ports:
+        - "5050:80"
+    volumes:
+        - pgadmin_data:/root/.pgadmin
+
+
